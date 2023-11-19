@@ -1,0 +1,29 @@
+{
+  "name": "command-print",
+  "version": "1.0.0",
+  "description": " printing the tree structure of the current directory.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "folder-print": "./bin/cli.js",
+    "fp": "./bin/cli.js"
+  },
+  "keywords": [
+    "folder",
+    "file",
+    "directory structure",
+    "tree",
+    "log",
+    "file-tree",
+    "folder-print"
+  ],
+  "author": "嘟嘟",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1"
+  }
+}
